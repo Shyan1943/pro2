@@ -62,13 +62,14 @@
     font-weight: bold;
 }
 
-.panel-title-hp .panel-title-highlight-hp {
+.panel-title-hp .panel-title-highlight-hp, strong {
     color: #d63246;
     display: inline;
     font-weight: bold;
 }
 
 .profile {
+    padding-top: 20px;
     padding-bottom: 133px;
 }
 
@@ -81,4 +82,10 @@
 .jumbotron a {
     
     color: white;
+}
+
+mark {
+    background-color : lightgoldenrodyellow;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
