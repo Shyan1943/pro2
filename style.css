@@ -68,9 +68,17 @@
     font-weight: bold;
 }
 
-.jumbotron, a {
+.profile {
+    padding-bottom: 133px;
+}
+
+.jumbotron {
     margin-bottom: 0rem;
-    padding: 5px 5px;
+    padding: 10px 10px;
     background-color:#676767;
+}
+
+.jumbotron a {
+    
     color: white;
 }
