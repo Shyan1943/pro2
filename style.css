@@ -1,11 +1,19 @@
 .img-fluid {
     max-width: 100%;
-    max-height: 0.01%;
+    max-height: 0.0001%;
 }
 
 .container-fluid {
     padding: 0px 0px;
     position: relative;
+}
+
+.form-inline {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* font-size: 10vw; */
 }
 
 .centered {
@@ -16,4 +24,45 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.panel-title-hp {
+    font-size: 48px;
+    height: 150px;
+    padding-top: 103px;
+    padding-bottom: 133px;
+    transition: all 1s cubic-bezier(0.73, 0.26, 0.12, 0.83);
+    display: block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.panel-title-hp .panel-title-shadow-hp {
+    font-size: 70px;
+    color: #e8e8e8;
+    font-weight: bold;
+    transform: translateY(0.5rem) scale(1.05);
+    transition: all 1s cubic-bezier(0.73, 0.26, 0.12, 0.83);
+    display: block;
+}
+
+.panel-title-hp .panel-title-hp-line {
+    position: relative;
+    top: -55px;
+    transform: translateY(-0.5rem) scale(1);
+    transition: all 1s cubic-bezier(0.73, 0.26, 0.12, 0.83);
+    display: block;
+}
+.panel-title-hp .panel-title-default-hp {
+    color: #333333;
+    display: inline;
+    font-weight: bold;
+}
+
+.panel-title-hp .panel-title-highlight-hp {
+    color: #d63246;
+    display: inline;
+    font-weight: bold;
 }
