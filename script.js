@@ -13,24 +13,16 @@ $(function(){
         }).then(function(response){
             let data = response.data;
             for (let allData of data){
-                
-                // if ($('#pod')[0].value == "POD";
-
-                    $('#table-data').append(`
-                    <tr>
-                        <td>${allData["POL"]}</td>
-                        <td>${allData["POD"]}</td>
-                        <td>${allData.VESSEL}</td>
-                    </tr>
-                    `);
-            }
+                $('#table-data').append(`
+                <tr>
+                    <td>${allData["POL"]}</td>
+                    <td>${allData["POD"]}</td>
+                    <td>${allData.VESSEL}</td>
+                </tr>
+                `);
+            })
         })
 
     })
 });
 
-$(function(){
-    $('#search-btn').click(function passvalue(){
-        let 
-    })
-})
