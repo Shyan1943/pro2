@@ -7,21 +7,61 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
 
-    <title>ebookship.com</title>
+    <title>BookShip.com</title>
   </head>
   <body>
-    <h1>ebookship.com</h1>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #e3f2fd">
+      <a class="navbar-brand" href="#">
+        <img src="pic/B.png"  width="30" height="30" class="d-inline-block align-top" alt="bookship.com.">
+        BookShip.com
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sailing Schedule</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
     <div>
-        <input type="text" placeholder="Port of Loading">
-        <input type="text" placeholder="Port of Discharge">
-  
-        <button id="search-btn">Search</button>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+
     </div>
-      
-   
- 
+
+    <table class="table table-striped">
+      <thead>
+      <tr>
+          <th scope="row">Port of Loading</th>
+          <th scope="col">Port of Discharge</th>
+          <th scope="col">Vessel</th>
+          <th scope="col">Vovage</th>
+          <th scope="col">Est. Transit Time</th>            
+      </tr>
+      </thead>
+  
+      <tbody id="table-data"></tbody>
+
+    </table>
+
     <div>
         <h3>Contact us</h3>
         <h6>Ebookship.com</h6>
