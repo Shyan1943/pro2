@@ -1,10 +1,11 @@
 const APIKEY = "5eb010234064fd3804165239";
 const APIURL = "https://sample-6ca3.restdb.io/rest/sailing-schedule-may-2020-soc";
 
-$(function (){
-    $('.table').DataTable();
-    $('.dataTables_length').addClass('bs-select');
+$(function(){
+    $(".mydatatable").DataTable();
 });
+
+
 
 $(function(){
     $('#search-btn').click(function(){
@@ -24,11 +25,6 @@ $(function(){
                         <div class="panel-subtitle-hp hidden-xs"></div>
                     </div>
                 </div>
-                <select class="form-control">
-                    <option value="">Export Basic</option>
-                    <option value="all">Export All</option>
-                    <option value="selected">Export Selected</option>
-                </select>
                 `);
 
                 $("#table-head").html(`
