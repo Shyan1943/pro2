@@ -12,7 +12,7 @@
     <title>BookShip.com</title>
   </head>
   <body>
-    <div>
+    <div id="box">
       <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #e3f2fd">
         <a class="navbar-brand" href="#">
           <img src="pic/B.png"  width="30" height="30" class="d-inline-block align-top" alt="bookship.com.">
@@ -77,22 +77,30 @@
       </div>
     </div>
 
+    <div class='container'>
+      <div id="toolbar">
+        <!-- <select class="form-control">
+            <option value="">Export Basic</option>
+            <option value="all">Export All</option>
+            <option value="selected">Export Selected</option>
+        </select> -->
+      </div>
 
-    <table class="table table-striped">
-      <thead>
-      <tr>
-          <th scope="row">Port of Loading</th>
-          <th scope="col">Port of Discharge</th>
-          <th scope="col">Vessel</th>
-          <th scope="col">Vovage</th>
-          <th scope="col">Est. Transit Time</th>            
-      </tr>
-      </thead>
-  
-      <tbody id="table-data"></tbody>
+      <table class="table table-striped">
+        <thead>
+        <tr>
+            <th scope="row">Port of Loading</th>
+            <th scope="col">Port of Discharge</th>
+            <th scope="col">Vessel</th>
+            <th scope="col">Vovage</th>
+            <th scope="col">Est. Transit Time</th>            
+        </tr>
+        </thead>
+    
+        <tbody id="table-data"></tbody>
 
-    </table>
-
+      </table>
+    </div>
 
     <div class="jumbotron fixed-bottom">
       <div class="row">

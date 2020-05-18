@@ -9,10 +9,15 @@ $(function(){
             }
         }).then(function(response){
             let data = response.data;
-            console.log(data);
             for (let allData of data){
-                console.log(allData)
-   
+                $('#toolbar').html(`
+                <select class="form-control">
+                    <option value="">Export Basic</option>
+                    <option value="all">Export All</option>
+                    <option value="selected">Export Selected</option>
+                </select>
+                `);
+
                 $('#table-data').append(`
                 <tr>
                     <td>${allData["POL"]}</td>
