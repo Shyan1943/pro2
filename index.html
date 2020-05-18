@@ -24,7 +24,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
       
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse navbar-right" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -40,14 +40,15 @@
       </nav>
     </div>
 
+    
+
     <div class="container-fluid">
       <img src="pic/vessel.jpg" class="img-fluid" alt="Responsive image">
-
-      <form class="form-inline my-2 my-lg-0">
+      <a id="search-btn" href="#table-head"><button class="btn">Get schedule</button></a>
+      <!-- <form class="form-inline my-2 my-lg-0">
         <input class="form-control form-control-lg" type="search" placeholder="Port of Discharge" aria-label="Search">
-      </form>
-      <button id="search-btn">Search</button>
-      
+      </form> -->
+            
       <div class="centered">Ship your containers with us today!!</div>
     </div>
       
@@ -63,7 +64,7 @@
     </div>
 
     <div class="container">
-      <div class="row">
+            <div class="row">
         <div class="col">
           <img src="pic/profile.png" class="float-left" alt="OurProfile">
         </div>
@@ -80,7 +81,7 @@
     </div>
 
   <section>
-    <div id="dt-wrapper" class="dataTables_wrapper dt-bootstrap4">
+    <div class="container mb-5 mt-3">
       <div class="row">
         <div class="col-sm-12 col-md-6">
           <div id="dt-length" class="dataTables_length bs-select">
@@ -99,7 +100,7 @@
           <div id="dt-filter" class="dataTables_filter">
             <label>
               "Search :"
-              <input type="search" class="form-control form-control-sm" place
+              <input type="search" class="form-control form-control-sm">
             </label>
           </div>
         </div>
@@ -108,19 +109,10 @@
       
       <div id="toolbar"></div>
 
-        <table class="table table-striped table-responsive table-bordered table-sm" id="dtBasicExample" cellspacing="0" width="100%">
+        <table class="table table-striped table-responsive table-bordered" style="width: 100%;">
           <thead id="table-head"></thead>    
           <tbody id="table-data"></tbody>
-
-          <tfoot id="table-foot">
-            <tr>
-                <th class="th-sm" scope="row">Port of Loading</th>
-                <th class="th-sm" scope="col">Port of Discharge</th>
-                <th class="th-sm" scope="col">Vessel</th>
-                <th class="th-sm" scope="col">Vovage</th>
-                <th class="th-sm" scope="col">Est. Transit Time</th>            
-            </tr>
-          </tfoot>
+          <tfoot id="table-foot"></tfoot>
 
         </table>
     </div>
@@ -128,10 +120,10 @@
 
     <div class="jumbotron fixed-bottom">
       <div class="row">
-        <div class="col-sm-5"><a href="https://www.google.com/maps/place/217+Henderson+Rd,+Singapore+159555/@1.2806721,103.8173607,17z/data=!3m1!4b1!4m5!3m4!1s0x31da1bd7907d854f:0xd348f7f6788d0364!8m2!3d1.2806667!4d103.8195494" target="_blank"><h5>Address : 217 Henderson Road #04-07, Singapore 159555</h5></a></div> 
-        <div class="col-sm" ><a href="tel:+6564761379"><h5>Tel : +65 6476 1379</h5></a></div> 
-        <div class="col-sm"><a href="tel:+6564751849"><h5>Fax : +65 6475 1849</h5></a></div> 
-        <div class="col-sm"><a href="mailto:box@wmgroup.com.sg"><h5>Email : box@wmgroup.com.sg</h5></a></div> 
+        <div class="col-sm-5"><a href="https://www.google.com/maps/place/217+Henderson+Rd,+Singapore+159555/@1.2806721,103.8173607,17z/data=!3m1!4b1!4m5!3m4!1s0x31da1bd7907d854f:0xd348f7f6788d0364!8m2!3d1.2806667!4d103.8195494" target="_blank"><h6>Address : 217 Henderson Road #04-07, Singapore 159555</h6></a></div> 
+        <div class="col-sm" ><a href="tel:+6564761379"><h6>Tel : +65 6476 1379</h6></a></div> 
+        <div class="col-sm"><a href="tel:+6564751849"><h6>Fax : +65 6475 1849</h6></a></div> 
+        <div class="col-sm-3"><a href="mailto:box@wmgroup.com.sg"><h6>Email : box@wmgroup.com.sg</h6></a></div> 
 
       </div>
     </div>

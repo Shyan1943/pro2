@@ -1,3 +1,8 @@
+.navbar-right {
+    position: fixed;
+    right: 30px;
+}
+
 .img-fluid {
     max-width: 100%;
     max-height: 0.0001%;
@@ -6,6 +11,28 @@
 .container-fluid {
     padding: 0px 0px;
     position: relative;
+}
+
+.container-fluid .btn {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: red;
+    color: white;
+    font-size: 3vw;
+    padding: 0px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 1s cubic-bezier(0.73, 0.26, 0.12, 0.83);
+    display: block;
+}
+
+.container-fluid .btn:hover {
+    background-color: white;
+    color: red;
 }
 
 .form-inline {
@@ -19,21 +46,23 @@
 .centered {
     text-align: center;
     color: white;
-    font-size: 5vw;
+    font-size: 3vw;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     transition: all 1s cubic-bezier(0.73, 0.26, 0.12, 0.83);
+    display: block;
 }
 
 .panel-title-hp {
-    font-size: 48px;
+    font-size: 4vw;
     height: 150px;
-    padding-top: 103px;
-    padding-bottom: 133px;
+    padding-top: 5vw;
+    padding-bottom: 15vw;
     transition: all 1s cubic-bezier(0.73, 0.26, 0.12, 0.83);
-    display: block;transition: all 1s cubic-bezier(0.73, 0.26, 0.12, 0.83);
+    display: block;
 }
 
 .text-center {
@@ -41,7 +70,7 @@
 }
 
 .panel-title-hp .panel-title-shadow-hp {
-    font-size: 70px;
+    font-size: 6vw;
     color: #e8e8e8;
     font-weight: bold;
     transform: translateY(0.5rem) scale(1.05);
@@ -51,7 +80,7 @@
 
 .panel-title-hp .panel-title-hp-line {
     position: relative;
-    top: -55px;
+    top: -35px;
     transform: translateY(-0.5rem) scale(1);
     transition: all 1s cubic-bezier(0.73, 0.26, 0.12, 0.83);
     display: block;
@@ -70,7 +99,6 @@
 
 .profile {
     padding-top: 20px;
-    padding-bottom: 133px;
 }
 
 .jumbotron {
