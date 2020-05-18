@@ -7,6 +7,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.4/css/responsive.bootstrap4.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <title>BookShip.com</title>
@@ -77,25 +79,52 @@
       </div>
     </div>
 
-    <div class='container'>
+  <section>
+    <div id="dt-wrapper" class="dataTables_wrapper dt-bootstrap4">
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <div id="dt-length" class="dataTables_length bs-select">
+            <label>Show 
+              <select name="dt-length" aria-controls="dtBasicExample" class="custom-select custome-select-sm form-control form-control-sm">
+                <option value="10">10</option>
+                <option value="25">25</option>
+                <option value="50">50</option>
+                <option value="100">100</option>
+              </select>
+              "entries"
+            </label>
+          </div> 
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <div id="dt-filter" class="dataTables_filter">
+            <label>
+              "Search :"
+              <input type="search" class="form-control form-control-sm" place
+            </label>
+          </div>
+        </div>
+      </div>      
+      
+      
       <div id="toolbar"></div>
 
-      <table class="table table-striped table-responsive table-bordered table-sm" id="dtBasicExample" cellspacing="0" width="100%">
-        <thead id="table-head"></thead>    
-        <tbody id="table-data"></tbody>
+        <table class="table table-striped table-responsive table-bordered table-sm" id="dtBasicExample" cellspacing="0" width="100%">
+          <thead id="table-head"></thead>    
+          <tbody id="table-data"></tbody>
 
-        <tfoot>
-          <tr>
-              <th class="th-sm" scope="row">Port of Loading</th>
-              <th class="th-sm" scope="col">Port of Discharge</th>
-              <th class="th-sm" scope="col">Vessel</th>
-              <th class="th-sm" scope="col">Vovage</th>
-              <th class="th-sm" scope="col">Est. Transit Time</th>            
-          </tr>
-        </tfoot>
+          <tfoot id="table-foot">
+            <tr>
+                <th class="th-sm" scope="row">Port of Loading</th>
+                <th class="th-sm" scope="col">Port of Discharge</th>
+                <th class="th-sm" scope="col">Vessel</th>
+                <th class="th-sm" scope="col">Vovage</th>
+                <th class="th-sm" scope="col">Est. Transit Time</th>            
+            </tr>
+          </tfoot>
 
-      </table>
+        </table>
     </div>
+  </section>
 
     <div class="jumbotron fixed-bottom">
       <div class="row">

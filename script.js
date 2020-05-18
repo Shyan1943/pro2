@@ -39,7 +39,18 @@ $(function(){
                     <td>${allData["POD"]}</td>
                     <td>${allData.VESSEL}</td>
                 </tr>
+                `)
+
+                $("#table-foot").html(`
+                <tr>
+                    <th class="th-sm" scope="row">Port of Loading</th>
+                    <th class="th-sm" scope="col">Port of Discharge</th>
+                    <th class="th-sm" scope="col">Vessel</th>
+                    <th class="th-sm" scope="col">Vovage</th>
+                    <th class="th-sm" scope="col">Est. Transit Time</th>            
+                </tr>
                 `);
+
             }
         })
     });
