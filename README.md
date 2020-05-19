@@ -1,3 +1,5 @@
-<img src="pic/B.png"  width="30" height="30"><strong>BookShip.com</strong>
+<img src="pic/logo.png">
 
-## Interactive Frontend Development Milestone Project
+This is a B2B online booking requests platform. Let customers submit booking requests online from Bookship.com center. It will save customers' time and improve data accuracy with Booking Request. 
+
+
