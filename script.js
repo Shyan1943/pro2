@@ -3,6 +3,7 @@ const APIURL = "https://sample-6ca3.restdb.io/rest/sailing-schedule-may-2020-soc
 
 $(function(){
     $(".mydatatable").DataTable();
+        responsive: true
 });
 
 
@@ -48,6 +49,7 @@ $(function(){
                     <td>${allData.VESSEL}</td>
                     <td>${allData.VOYAGE}</td>
                     <td>${allData.TT}</td>
+                    <td><a href="mailto:box@wmgroup.com.sg?&subject=Booking%20Request%20:%20Singapore%20to%20${allData.POD}%20on%20${allData["POL ETA"]}%20vessel:%20${allData.VESSEL}%20V.${allData.VOYAGE}&body=Hi%20Booking%20department%20 (TEL:%20+65%2064761379),%0d%0dWe%20would%20like%20to%20book%20the%20following%20schedule.%20Here%20are%20my%20details:%0d%0dName%20:%0dContact Number%20:%0dFull Company Name%20:%0dNumber%20of%20Container%20:%0dPOL%20:%20${allData.POL},%20${allData["POL ETA"]}%0dPOD%20:%20${allData.POD},%20${allData["POD ETA"]}%0dVessel%20:%20${allData.VESSEL}%20V.${allData.VOYAGE}%0d%0dThanks%20and%20Regards%0d" rel="EMAIL"><button id="book-btn">Book</button></a></td>
                 </tr>
                 `)
 
