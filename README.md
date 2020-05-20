@@ -7,10 +7,10 @@
 ### Context 
 
 This project involves writing custom HTML5, CSS3, API and Javascript/Jquery code to create an online booking platform of at least 3 pages to include:
-`•	Provide basic company information 
+•	Provide basic company information
 •	Provide contact information
-•	Customer to find the vessel schedule which fits their supply chain.
-•	Click to book or connect the company`
+•	Customer to find the vessel schedule which fits their supply chain
+•	Click to book or connect the company
 
 External user’s goal (The Customer): The external users are shippers searching for a suitable vessel schedule, which fits their supply chain.
 
@@ -19,6 +19,8 @@ Site owner's goal (The Company): To simplify site owner’s daily consolidation 
 ### Demo
 
 A live website can be found here https://shyan1943.github.io/pro2/
+
+<a href="https://shyan1943.github.io/pro2/"><img src="pic/demoLanding.jpg"></a>
 
 
 
