@@ -52,40 +52,44 @@ As such, they will have to call their vendors one by one, to look for a suitable
       EU3. to decide whether the sailing schedule is suitable
       EU4. to understand the Site Owner company profile 
       EU5. to do the booking request straight away
-      EU6. to print/download the schedule or booking request form
+      EU6. to print/download the schedule in soft copy
       EU7. to find out how to contact the Site Owner 
 
 
 #### 1d) Identifying Site Owners' Objective: 
 The Site owner's goal is to raise the company revenue and branding. Therefore, the following objective are set to achieving the goal : 
 
-      SO1. To simplify daily data entry and consolidation jobs
-      SO2. Increase savings
-      SO3. To simplify External Users’ supply chain
-      SO4. Keep up with changing technology trends
+      SO1. To simplify daily data entry and consolidation jobs 
+      SO2. Enhance company branding 
+      SO3. To simplify External Users’ supply chain 
+      SO4. Keep up with changing technology trends 
       SO5. Pushing the boundaries to connect 
-      SO6. Stay ahead of the competition
-      SO7. Managed services
-      SO8. Improve customer service`
+      SO6. Stay ahead of the competition 
 
-#### Therefore, the site should:
-    * Be easily accessible regardless of the device visitor is using.
-    * Provide an online version of the sailing schedule as well as a downloadable one.
-    * Provide opportunities to present our profile
-    * Allow the shipper to search for the suitable sailing schedule 
-    * Allow the shipper to contact us 
-    * Allow Site Owner to improve the company brand
+
+#### Therefore, the platform should focus on:
+
+      ES1. Upload Excel data (SO1) 
+      ES2. Provide Site Owners’ profile to improve the company brand (EU4) (SO2) 
+      ES3. Be easily accessible regardless of the device visitor is using (EU1) (SO3)
+      ES4. Good Navigation (EU1) (SO3) 
+      ES5. Provide an online version of the sailing schedule (EU2) (SO4)  
+      ES6. Allow shippers to send booking request straight away (EU5) (SO3) 
+      ES7. Allow shippers to contact Site Owner (EU7) (SO5) 
+      ES8. Allow shippers to print/download schedule in PDF or Excel template (EU6) (SO3)
+      ES9. Allow the shipper to search for the suitable sailing schedule (EU1) (SO6) 
+
 
 
 ### 2) SCOPE
-      US1. As a Site Owner, I want to upload my several excel files and it auto return in the sailing schedule platform, so that it can simplify our daily data entry and consolidation jobs. (SO1) 
-      US2. As a Site Owner, I want to simplify and assist in shippers’ supply chain, so that we can grow together. (SO3) 
-      US3. As a shipper, I want to get the sailing schedule information easily within few click, so that I can finish my task as much as possible. (EU1) 
-      US4. As a shipper, I want to have more choices on sailing schedule, so that I can get a closest sailing schedule to match my client’s ideal date. (EU2) 
-      US5. As a shipper, I want to know about the company profile, so that I know Site Owner’s strength area, capabilities & reliable. (EU4) 
-      US6. As a shipper, I want to send my booking request straight away through the platform, so that I no need to call anyone to get my booking done. (EU5) 
-      US7. As a shipper, I want to print or download the sailing schedule, so that I can plan for my shipment and operation schedule especially bulk orders from client. (EU6) 
-      US8. As a shipper, I want to have Site Owner contact details, so that I can get in touch with the them. (EU7) 
+      US1. As a Site Owner, I want to upload my several excel files and it auto return in the sailing schedule platform, so that it can simplify our daily data entry and consolidation jobs. (ES1) 
+      US2. As a Site Owner, I want to simplify and assist in shippers’ supply chain, so that we can grow together. (ES3~9) 
+      US3. As a shipper, I want to get the sailing schedule information easily within few click, so that I can finish my task as much as possible. (ES4) 
+      US4. As a shipper, I want to have more choices on sailing schedule, so that I can get a closest sailing schedule to match my client’s ideal date. (ES5)
+      US5. As a shipper, I want to know about the company profile, so that I know Site Owner’s strength area, capabilities & reliable. (ES2) 
+      US6. As a shipper, I want to send my booking request straight away through the platform, so that I no need to call anyone to get my booking done. (ES6) 
+      US7. As a shipper, I want to print or download the sailing schedule, so that I can plan for my shipment and operation schedule especially bulk orders from client. (ES8) 
+      US8. As a shipper, I want to have Site Owner contact details, so that I can get in touch with the them. (ES7) 
 
 
 
