@@ -57,7 +57,8 @@ As such, they will have to call their vendors one by one, to look for a suitable
 
 
 #### 1d) Identifying Site Owners' Objective: 
-The Site owner's goal is to raise the company revenue and branding. Therefore, the following objective are set to achieving the goal : 
+
+The Site owner's goal is to raise the company revenue and branding. Therefore, the following objective are set to achieving the goal :
 
       SO1. To simplify daily data entry and consolidation jobs 
       SO2. Enhance company branding 
@@ -68,7 +69,6 @@ The Site owner's goal is to raise the company revenue and branding. Therefore, t
 
 
 #### Therefore, the platform should focus on:
-
       ES1. Upload Excel data (SO1) 
       ES2. Provide Site Owners’ profile to improve the company brand (EU4) (SO2) 
       ES3. Be easily accessible regardless of the device visitor is using (EU1) (SO3)
@@ -80,8 +80,9 @@ The Site owner's goal is to raise the company revenue and branding. Therefore, t
       ES9. Allow the shipper to search for the suitable sailing schedule (EU1) (SO6) 
 
 
-
 ### 2) SCOPE
+
+#### 2a) User stories 
       US1. As a Site Owner, I want to upload my several excel files and it auto return in the sailing schedule platform, so that it can simplify our daily data entry and consolidation jobs. (ES1) 
       US2. As a Site Owner, I want to simplify and assist in shippers’ supply chain, so that we can grow together. (ES3~9) 
       US3. As a shipper, I want to get the sailing schedule information easily within few click, so that I can finish my task as much as possible. (ES4) 
@@ -90,6 +91,27 @@ The Site owner's goal is to raise the company revenue and branding. Therefore, t
       US6. As a shipper, I want to send my booking request straight away through the platform, so that I no need to call anyone to get my booking done. (ES6) 
       US7. As a shipper, I want to print or download the sailing schedule, so that I can plan for my shipment and operation schedule especially bulk orders from client. (ES8) 
       US8. As a shipper, I want to have Site Owner contact details, so that I can get in touch with the them. (ES7) 
+
+#### 2b) Functional Requirement
+      FR1. Backend upload Excel sailing schedule, auto convert and store in API (ES1)
+      FR2. Site Owner’s company logo & profile (ES2)
+      FR3. Responsive design (ES3)
+      FR4. Good Navigation that all resources are easy to find, allowing shippers to navigate the layout of the site intuitively. (ES4)
+      FR5. Get API Sailing schedule (ES5)
+      FR6. Online Booking Request (ES6)
+      FR7. Contact details (ES7)
+      FR8. Allow download of sailing schedule (ES8)
+      FR9. Searchable sailing schedule (ES9)
+
+#### 2c) Content Requirement
+      CR1. Backend Excel sailing schedule data (ES1) 
+      CR2. Site Owner’s company profile section (ES2)  
+      CR3. Navigation back to home, to get schedule, to profile page and to contact details (ES4) 
+      CR4. Sailing schedule section (ES5) 
+      CR5. Online Booking Request section (ES6)  
+      CR6. Contact section (ES7)
+      CR7. Downloadable sailing schedule (ES8) 
+
 
 
 
