@@ -113,6 +113,56 @@ The Site owner's goal is to raise the company revenue and branding. Therefore, t
       CR7. Downloadable sailing schedule (ES8) 
 
 
+### 3) STRUCTURE
+
+#### 3a) Information Architecture
+      
+##### Content Inventory (CI)
+Information required on the website to fulfil the content requirements.
+
+      CI1. Objective (CR2)  
+      CI2. company profile (CR2)  
+      CI3. Sailing schedule (CR4) 
+      CI4. Online Booking Request (CR5)  
+      CI5. Contact details (CR6)
+
+##### Image required
+      CI6. High resolution photo to be displayed as 100% width image (ES2)
+      CI7. Logo (ES2)
+      CI8. Profile image (ES2) 
+
+##### Documents
+      CI9. Downloadable sailing schedule (CR7)
+  
+##### Content Structure (CS)
+The content will be regroup into a sequential structure. IA Sitemap.png
+
+
+##### Home Page :
+      CI6. It starts with a home page with a 100% width image allow visitor perceive briefly of what is the Site Owner business & understand Site Owner a little better.
+      CI7. Company Logo display to enhance the company branding 
+      CI5. Contact details to be fixed at the bottom for the convenience of External User 
+      CI3. “Get Schedule” Button to generate (CI3) sailing schedule page. 
+
+
+##### Sailing Schedule Page :  
+      CI3. This page return a table, which contents the information External User’ needs. (ETA POL, POL, POD, ETA POD, Vessel, Vovage & transit time). 
+            *Definition* 
+            ETA = Estimated time of arrival
+            POL = Port of Loading 
+            POD = Port of Discharge
+      CI4. A “Book” button to link External User to (CI4) online booking request 
+      CI9. Downloadable sailing schedule is available in this page as well 
+
+ 
+##### Profile Page:
+      CI1. This page is to present the Site Owner Objective 
+      CI2. As well as company profile (e.g. who they are, what services they providing, where is their strength area & etc..) 
+      CI8. The layout should include a profile image, which is eye catching, suit the theme color and convey the business’ objective 
+
+
+
+
 
 
 
