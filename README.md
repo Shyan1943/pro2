@@ -222,6 +222,8 @@ When onclick, Axios will get the API data and display it in an organized table. 
 ##### “BOOK” button 
 When onclick, it will prompt out a complete “Booking request” email, which External User no need to key in what vessel they are going to booking, recipient as well as Email subject. External User just need to fill up their name, contact details, company name and how many containers you need (highlight in yellow in the image) in the “Booking Request” email will do. 
 
+<img src="pic/bookingrequest.png" width="60%" height="60%"> 
+
 
 
 
