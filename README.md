@@ -193,16 +193,13 @@ CI8. The layout should include a profile image, which is eye catching, suit the 
 
 
 1. Each page will include three parts - header, main and footer.
-
 2. Header and footer include sections that will be repeated all the pages to improve predictability and consistency.
-
 3. Fixed-top Header will include a logo (CI7) and the main navigation (CR3)
-
 4. Fixed-bottom Footer will include contact details (CI5) and connect the External User with the Site Owner with their preference method (FR7)
-
 5. The main content section will display content related to the page.
 
-
+##### Sitemap
+<img src="pic/IDSitemap.png">
 
 ---
 
