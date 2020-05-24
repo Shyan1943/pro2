@@ -136,6 +136,7 @@ Information required on the website to fulfil the content requirements.
   
 ##### Content Structure (CS)
 The content will be regroup into a sequential structure. IA Sitemap.png
+<img src="pic/IASitemap.png">
 
 
 ##### Home Page :
