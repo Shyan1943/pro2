@@ -161,6 +161,28 @@ The content will be regroup into a sequential structure. IA Sitemap.png
       CI2. As well as company profile (e.g. who they are, what services they providing, where is their strength area & etc..) 
       CI8. The layout should include a profile image, which is eye catching, suit the theme color and convey the business’ objective 
 
+#### 3b) Interaction Design      
+##### Learnability
+      i.	Different navigation are positions at the familiar location a web surfer, and throughout the website to enhance familiarity and consistency. (FR4)
+            a.	Logo that leads back to the home page
+            b.	Main navigation fixed at the top 
+            c.	Navigation system in the form of site map allowing visitor to view all the sections at a glance
+      ii.	Button with hover effect will be used to indicate there's a link to the working project to increase the predictability.
+##### Understandability
+      i.	Content are group into logical order with short word or phrase title easily understandable 
+      ii.	Readability (Flesch Kincaid Reading Ease Test = 78.6, Flesch-Kincaid Grade Level Score = 4)       
+##### Operability
+      i.	The visitor should be able to easily download the sailing schedule in PDF or excel without encountering any issues. (FR8)
+      ii.	Provide a working contact link to allow External User to send an email to Site Owner and response with a positive feedback upon successful submission. (FR7)
+      iii.	Allow users to use a text messaging system with web interface familiar to them (FR7)
+##### Attractiveness
+      i.	Responsive design to take into consideration how it looks when on viewed on a desktop browsers as well as smaller screens like mobile phone. The layout will change to cater for different size of the device. (FR3)
+      ii.	Utilization of negative space between different sections and components of the page to increase readability
+##### Usability compliance
+      i.	Semantic HTML to enhance code readability 
+      ii.	Rearrangement of the component 
+
+
 
 
 
