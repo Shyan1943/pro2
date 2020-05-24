@@ -137,7 +137,7 @@ Information required on the website to fulfil the content requirements.
 ##### Content Structure (CS)
 In these modern days, users are constantly bombarded with too much content, people love simplicity. With this, we design it as a "One-page websites" offer a fast and clear reading experience. The contents will be regroup into a sequential structure as below IA Sitemap.
 
-<img src="pic/IASitemap.png" align="left" width="40%" height="40%">
+<img src="pic/IASitemap.png" align="left" width="45%" height="45%">
 
 ##### Home Page :
 ```
@@ -189,7 +189,7 @@ CI8. The layout should include a profile image, which is eye catching, suit the 
 ### 4) SKELETON
 
 #### 4a) Interface design
-<img src="pic/mainlayout.png" align="right" width="35%" height="35%">
+<img src="pic/mainlayout.png" align="left" width="27%" height="22%">
 
 
 1. Each page will include three parts - header, main and footer.
@@ -199,7 +199,34 @@ CI8. The layout should include a profile image, which is eye catching, suit the 
 5. The main content section will display content related to the page.
 
 ##### Sitemap
-<img src="pic/IDSitemap.png">
+<img src="pic/IDSitemap.png" width="60%" height="60%">
+
+#### 4b) Navigation design 
+Bootstrap component will be used to make the fixed-top navigation responsive.
+
+##### Logo
+Logo on every page, clicking on it will bring the visitor to the Home Page. [Bootstrap Component - Navbar] (FR4) (CI7)
+
+##### Main Navigation
+Main Navigation is a fixed position menu at the top of every web page. It designed for External User's convenience from one page to another easily. They are hyperlinked to their respective pages. There is hover function too, so users know its clickable when mouse over. [Bootstrap Component - Navbar] (FR4) 
+
+##### Collapsible Hamburger Mobile Menu
+The top navigation will be minimized into a hamburger menu when displayed in mobile screens or other small screens. Clicking on it will display the familiar 3 choices. [Bootstrap Component - Navbar] (FR4) (FR3)
+
+##### Footer Contact Section 
+Navigation system is allowing visitor to view all the sections at a glance. By clicking the button “address”, "call us" or "email us", it will direct the user to the call function without typing the phone number, create a new email without typing Site Owner email address and even direct the External User to the correct google map location.
+
+##### Get Schedule button 
+When onclick, Axios will get the API data and display it in an organized table. Mean well, hyperlink External User to the sailing schedule table. (FR4), (CI3)  
+
+##### “BOOK” button 
+When onclick, it will prompt out a complete “Booking request” email, which External User no need to key in what vessel they are going to booking, recipient as well as Email subject. External User just need to fill up their name, contact details, company name and how many containers you need (highlight in yellow in the image) in the “Booking Request” email will do. 
+
+
+
+
+
+
 
 ---
 
