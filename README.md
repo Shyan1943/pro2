@@ -99,7 +99,7 @@ The Site owner's goal is to raise the company revenue and branding. Therefore, t
       FR4. Good Navigation that all resources are easy to find, allowing shippers to navigate the layout of the site intuitively. (ES4)
       FR5. Get API Sailing schedule (ES5)
       FR6. Online Booking Request (ES6)
-      FR7. Contact details (ES7)
+      FR7. Contact methods (ES7)
       FR8. Allow download of sailing schedule (ES8)
       FR9. Searchable sailing schedule (ES9)
 
@@ -135,31 +135,34 @@ Information required on the website to fulfil the content requirements.
       CI9. Downloadable sailing schedule (CR7)
   
 ##### Content Structure (CS)
-The content will be regroup into a sequential structure. IA Sitemap.png
-<img src="pic/IASitemap.png">
+In these modern days, users are constantly bombarded with too much content, people love simplicity. With this, we design it as a "One-page websites" offer a fast and clear reading experience. The contents will be regroup into a sequential structure as below IA Sitemap.
 
+<img src="pic/IASitemap.png" align="left" width="40%" height="40%">
 
 ##### Home Page :
-      CI6. It starts with a home page with a 100% width image allow visitor perceive briefly of what is the Site Owner business & understand Site Owner a little better.
-      CI7. Company Logo display to enhance the company branding 
-      CI5. Contact details to be fixed at the bottom for the convenience of External User 
-      CI3. “Get Schedule” Button to generate (CI3) sailing schedule page. 
-
-
+```
+CI6. It starts with a home page with a 100% width image allow visitor perceive briefly of what is the Site Owner business & understand Site Owner a little better.
+CI7. Company Logo display to enhance the company branding 
+CI5. Contact details to be fixed at the bottom for the convenience of External User 
+CI3. “Get Schedule” Button to generate (CI3) sailing schedule page. 
+```
 ##### Sailing Schedule Page :  
-      CI3. This page return a table, which contents the information External User’ needs. (ETA POL, POL, POD, ETA POD, Vessel, Vovage & transit time). 
-            *Definition* 
-            ETA = Estimated time of arrival
-            POL = Port of Loading 
-            POD = Port of Discharge
-      CI4. A “Book” button to link External User to (CI4) online booking request 
-      CI9. Downloadable sailing schedule is available in this page as well 
-
- 
+```
+CI3. This page return a table, which contents the information External User’ needs. (ETA POL, POL, POD, ETA POD, Vessel, Vovage & transit time). 
+      *Definition* 
+      ETA = Estimated time of arrival
+      POL = Port of Loading 
+      POD = Port of Discharge
+CI4. A “Book” button to link External User to (CI4) online booking request 
+CI9. Downloadable sailing schedule is available in this page as well  
+```
 ##### Profile Page:
-      CI1. This page is to present the Site Owner Objective 
-      CI2. As well as company profile (e.g. who they are, what services they providing, where is their strength area & etc..) 
-      CI8. The layout should include a profile image, which is eye catching, suit the theme color and convey the business’ objective 
+```
+CI1. This page is to present the Site Owner Objective 
+CI2. As well as company profile (e.g. who they are, what services they providing, where is their strength area & etc..) 
+CI8. The layout should include a profile image, which is eye catching, suit the theme color and convey the business’ objective 
+```
+
 
 #### 3b) Interaction Design      
 ##### Learnability
@@ -183,8 +186,25 @@ The content will be regroup into a sequential structure. IA Sitemap.png
       ii.	Rearrangement of the component 
 
 
+### 4) SKELETON
+
+#### 4a) Interface design
+<img src="pic/mainlayout.png" align="right" width="35%" height="35%">
 
 
+1. Each page will include three parts - header, main and footer.
+
+2. Header and footer include sections that will be repeated all the pages to improve predictability and consistency.
+
+3. Fixed-top Header will include a logo (CI7) and the main navigation (CR3)
+
+4. Fixed-bottom Footer will include contact details (CI5) and connect the External User with the Site Owner with their preference method (FR7)
+
+5. The main content section will display content related to the page.
+
+
+
+---
 
 
 
