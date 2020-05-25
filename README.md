@@ -262,7 +262,40 @@ Full-width cover “containers port” image selected aims to build an emotional
 
 ## Features
 
-### 
+##### Responsiveness
+      Feature 1. Allow the External User to view the platform with all devices, like desktop, laptop, tablets and smart mobile phones. It can be view in both portrait and landscape orientation as well by implement the responsive design. (US3) (FR3) 
+      
+##### Ease of navigation
+      Feature 2. Allow the External User to view all the sections at a glance and from one page to another easily by having the fixed-up position & hover effect navigation system (FR4)
+      Feature 3. Allow the External User to get the sailing schedule straightaway, by having “Get Schedule” button at the Center of the home page and hyperlink it to “Our schedule” page directly. (US3) (FR5) 
+
+##### Consistency and predictability
+      Feature 4. Allow the External User to stay clear and easy find the same components position at the same place regardless of which page they are at by having the header, footer and theme stay consistent throughout the site. 
+
+##### Contact Section
+      Feature 5. Allow the External User to get in touch with Site Owner at the most efficiency way, by having fixed-bottom bar at every page (US8) (ES7)
+      Feature 6. Allow the External User to get in touch with Site Owner at their preference method, by having the hyperlink at the address, contact and email to their preference method. (SO3)
+
+##### Profile Page 
+      Feature 7. Allow the External User to know about the Site Owner’s strength area, capabilities & reliable, by having a good write-up (US5) (ES2) 
+
+##### Schedule Page 
+      Feature 8. Allow the External Users to simplify theirs’ supply chain, by having the online sailing schedule. (US2) (ES3~9) 
+      Feature 9. Allow the External User to get the sailing schedule information easily just one click, by having the “Get Schedule” Hyperlink button at the center of the Home page. (US3) (ES4) 
+      Feature 10. Allow the External User to print or download the sailing schedule in excel or pdf format, by having the downloadable function. (US7) (ES8) 
+
+##### Booking Request 
+      Feature 11. Allow the External User to select the specific sailing schedule straightaway through the platform, by having the “BOOK” buttons on each line of the sailing schedule. (US6) 
+      Feature 12. Allow the External User to send booking request straightaway through the platform with typing as less as possible, by hyperlinking the “BOOK” button to the Online Booking Request template (US6) (ES6) (FR6) 
+
+##### Backend restdb.io 
+      Feature 13. Allow the Site Owner to simplify their daily data entry and consolidation jobs, by having them to upload several excel files on restdb.io and it auto-organize & return in the sailing schedule platform. (US1) (ES1) 
+
+#### Features Left to Implement
+      Feature 15. Allow the Site Owner to simplify their daily data entry and consolidation jobs, by implement the upload excel files method on same website instead of backend restdb.io  
+
+
+
 
 
 
