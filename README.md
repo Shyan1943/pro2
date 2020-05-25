@@ -5,8 +5,7 @@
 ### Interactive Frontend Development Milestone Project 
 
 ### Context 
-
-This project involves writing custom HTML5, CSS3, API and Javascript/Jquery code to create an online booking platform of at least 3 pages to include:
+iThis project involves writing custom HTML5, CSS3, API and Javascript/Jquery code to create an online booking platform of at least 3 pages to include:
 
     * Provide basic company information
     * Provide contact information
@@ -202,7 +201,7 @@ CI8. The layout should include a profile image, which is eye catching, suit the 
 <img src="pic/IDSitemap.png" width="60%" height="60%">
 
 #### 4b) Navigation design 
-Bootstrap component will be used to make the fixed-top navigation responsive.
+If External User get lost, the navigation bar will point them in the right direction. Bootstrap component will be used to make the fixed-top navigation responsive.
 
 ##### Logo
 Logo on every page, clicking on it will bring the visitor to the Home Page. [Bootstrap Component - Navbar] (FR4) (CI7)
@@ -223,6 +222,22 @@ When onclick, Axios will get the API data and display it in an organized table. 
 When onclick, it will prompt out a complete “Booking request” email, which External User no need to key in what vessel they are going to booking, recipient as well as Email subject. External User just need to fill up their name, contact details, company name and how many containers you need (highlight in yellow in the image) in the “Booking Request” email will do. 
 
 <img src="pic/bookingrequest.png" width="60%" height="60%"> 
+
+#### 4c) Information Design
+##### Corporate Branding
+A brand is the set of expectations, memories, stories and relationships that, taken together, account for a consumer's decision to choose one product or service over another. Here are the key design elements we use to create a brand identity that is strong, consistent, and attractive. 
+
+      (3bi) Clear brand purpose and positioning
+      (CI6) High resolution photo to be displayed 100% width at the home page, which can build an emotional connection with the External User.
+      (CI7) Memorable Logo also created to make an impression.
+      (FR4) Good navigation is key to attracting the External User, show them we care about their feeling, even just a single movement on the webpage. We do not want them to get lost. 
+      (CI2) A Modern Web Design will tell External User that the company motto “keep moving forward”, “keep improving” : 
+            (3a) One-page websites
+            (FR3) Responsive design
+            (FR5) Get API Sailing schedule (ES5)
+            (FR6) Online Booking Request (ES6)
+      (5. Surface Color) Attractive color palette 
+      (5. Surface Font) Professional typography 
 
 
 
