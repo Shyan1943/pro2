@@ -240,16 +240,35 @@ A brand is the set of expectations, memories, stories and relationships that, ta
       (5. Surface Font) Professional typography 
 
 
+### 5) SURFACE
+#### Colour
+<img src="pic/color.png" width="60%" height="60%">  
+Will choose colors related to logo design as the color palette. This should also be simple, with only 1–3 primary colors. In this website, the corporate logo is sharp red and black font, so I will choose light blue & grey to neutral it. (https://www.sessions.edu/color-calculator/)
 
+#### Fonts
+Font-Family “Sans serif” are chosen as the most famous fonts are recognizable even when taken out of context. A single primary typeface to lead the brand identity design, and it also work well with the logo and color palette. And giving the image of being modern, approachable, and clean. 
+CSS rules to specify families (font-family: 'Open Sans', sans-serif; )
+Body Regular 400 (https://fonts.googleapis.com/css2?family=Open+Sans&display=swap")
+Logo Semi-bold 600 (https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap")
 
-
-
-
----
+#### Images
+Full-width cover “containers port” image selected aims to build an emotional connection with External User, tell them what this platform is doing, related to which industry as well as Illustrations strengthen the branding.
 
 
 
 
 
 ------
+
 ## Features
+
+### 
+
+
+
+
+
+
+
+------
+## Deplayment or testing
