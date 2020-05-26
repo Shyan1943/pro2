@@ -298,10 +298,27 @@ Full-width cover “containers port” image selected aims to build an emotional
 
 
 
-
-
-
-
-
 ------
-## Deplayment or testing
+## Technologies Used 
+1) <a href="https://fonts.google.com">Google Font</a> to making the web more beautiful, fast, and open through great typography 
+2) <a href="https://www.sessions.edu/color-calculator/">Sessions College color calculator</a> to find the perfect color scheme 
+3) <a href="https://unsplash.com">Unsplash</a> to get an high resolution image
+4) <a href="https://www.w3schools.com/html/html_intro.asp">HTM5</a> to structure the webpages
+5) <a href="https://www.w3schools.com/css/css_intro.asp">CSS3</a> to style HTML contents
+7) <a href="https://getbootstrap.com/docs/4.0/components/navbar/">Bootstrap 4 Navbar</a> for the main navigation
+8) <a href="https://getbootstrap.com/docs/4.0/components/jumbotron/">Bootstrap 4 Jumbotron</a> to displaying the fixed-bottom contact section.
+9) <a href="https://bootstrap-table.com/docs/getting-started/introduction/">bootstrap-Table</a> for An extended table to the integration with some of the most widely used CSS frameworks. 
+10) <a href="https://github.com/">Github</a> for Versioning Control System and GitHub for repositories.
+11) <a href="https://code.visualstudio.com">Visual Studio Code</a> for code editor redefined and optimized for building and debugging modern web ) 
+12) <a href="https://restdb.io">Restdb.io</a> for uploading csv data, it model the information and store it online database backend automatically. 
+13) <a href="https://jquery.com/">JQuery</a> to simplify DOM manipulation.
+14) <a href="https://cdnjs.com/libraries/axios">Axios</a> for JavaScript which can be used in your front-end application and in your API/Json backend
+15) <a href="https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md">Code Institute Readme.md template</a> for Readme file report guideline 
+16) <a href="http://validator.w3.org/">W3 Markup Validation Service</a> for validating markup,
+17) <a href="https://validator.w3.org/checklink">W3C Link Checker</a> for checking links
+18) <a href="https://www.10bestdesign.com/dirtymarkup/">Dirty Markup</a> for cleaning up HTML and CSS Codes
+19) <a href="https://worditout.com/word-cloud/create">Word It Out</a> for creating word cloud
+20) <a href="https://responsivedesignchecker.com/">Responsive Web Design Checker</a> for checking how it looks like on other devices
+
+      
+
