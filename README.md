@@ -1,11 +1,11 @@
 <a href="https://shyan1943.github.io/pro2/"><img src="pic/logo.png"></a>
 
-## Online Shipping Booking Platform
+## Online Sailing Schedule for Inhouse Usage  
 
 ### Interactive Frontend Development Milestone Project 
 
 ### Context 
-iThis project involves writing custom HTML5, CSS3, API and Javascript/Jquery code to create an online booking platform of at least 3 pages to include:
+This project involves writing custom HTML5, CSS3, API and Javascript/Jquery code to create an online booking platform of at least 3 pages to include:
 
     * Provide basic company information
     * Provide contact information
@@ -21,10 +21,6 @@ Site owner's goal (The Company): The Site owner's goal is to raise the company r
 A live website can be found here https://shyan1943.github.io/pro2/
 
 <a href="https://shyan1943.github.io/pro2/"><img src="pic/demoLanding.jpg"></a>
-
-
-
-
 
 ------
 
@@ -342,15 +338,15 @@ Full-width cover “containers port” image selected aims to build an emotional
       5)	Inhouse Excel vessel sailing schedule
 
 ### b) Production (Putting the site into production) 
-      1)	Excel -> delete unnecessary content (e.g. logo, photo or etc..)  in excel. 
-      2)	Restdb.io -> upload excel to restdb.io
-      3)	Restdb.io -> get API Key 
-      4)	Restdb.io -> get API lin: 
-      5)	Github -> create Github :epository and 
-      6)	Visual Studio Code -> clone Github repository in Visual Studio Code
-      7)	Visual Studio Code -> Did Git commit & push to ensure it is upstream to Github before start coding.
-      8)	Bootstrap -> Get Started HTML template 
-      9)	Axios -> insert axios CDN after jquery script 
+      1) Excel -> delete unnecessary content (e.g. logo, photo or etc..)  in excel. 
+      2) Restdb.io -> upload excel to restdb.io
+      3) Restdb.io -> get API Key 
+      4) Restdb.io -> get API lin: 
+      5) Github -> create Github :epository and 
+      6) Visual Studio Code -> clone Github repository in Visual Studio Code
+      7) Visual Studio Code -> Did Git commit & push to ensure it is upstream to Github before start coding.
+      8) Bootstrap -> Get Started HTML template 
+      9) Axios -> insert axios CDN after jquery script 
       10) Script.js -> use Axios & jquery coding to get resdb.io API 
       11) HTML -> file up content 
       12) Style.css -> style the page 
@@ -362,8 +358,27 @@ Full-width cover “containers port” image selected aims to build an emotional
       18) Testing -> all navigation 
 
 ### c) Publication (Putting the site goes ‘live’) 
-      1)	At the Git Repository, navigate to the 'Setting'
-      2)	scrolled down to the Git Pages section.
-      3)	Select 'master branch'
-      4)	View and test the site at  https://shyan1943.github.io/pro2/
+      1) At the Git Repository, navigate to the 'Setting'
+      2) scrolled down to the Git Pages section.
+      3) Select 'master branch'
+      4) View and test the site at  https://shyan1943.github.io/pro2/
+
+
+
+
+
+------
+## CREDITS 
+      1) The vessel sailing schedule was from my inhouse data source 
+      2) The text for “Our Profile” was copied from my inhouse data source 
+      3) The embedded fonts used in the websites is Font-Family “Sans serif” from   Google Fonts (https://fonts.google.com)
+      4) Logo & image were downloaded from https://unsplash.com/) 
+
+## ACKNOWLEDGEMENTS 
+I received inspiration for this project from : 
+
+      1) Mr Paul Chor - Mentor of my course
+      2) Mr Malcolm - Mentor of my project 
+      3) WM Logistics (Worldwide) Pte Ltd – My company 
+      4) Mr Donovan Lo - My classmate – on the Readme report  
 
