@@ -260,7 +260,7 @@ Full-width cover “containers port” image selected aims to build an emotional
 
 ------
 
-## Features
+## FEATURES
 
 ##### Responsiveness
       Feature 1. Allow the External User to view the platform with all devices, like desktop, laptop, tablets and smart mobile phones. It can be view in both portrait and landscape orientation as well by implement the responsive design. (US3) (FR3) 
@@ -299,7 +299,7 @@ Full-width cover “containers port” image selected aims to build an emotional
 
 
 ------
-## Technologies Used 
+## TECHNOLOGIES USED  
 1) <a href="https://fonts.google.com">Google Font</a> to making the web more beautiful, fast, and open through great typography 
 2) <a href="https://www.sessions.edu/color-calculator/">Sessions College color calculator</a> to find the perfect color scheme 
 3) <a href="https://unsplash.com">Unsplash</a> to get an high resolution image
@@ -320,5 +320,50 @@ Full-width cover “containers port” image selected aims to build an emotional
 19) <a href="https://worditout.com/word-cloud/create">Word It Out</a> for creating word cloud
 20) <a href="https://responsivedesignchecker.com/">Responsive Web Design Checker</a> for checking how it looks like on other devices
 
-      
+
+
+
+
+------
+## TESTING
+
+
+
+
+
+------
+## DEPLOYMENT
+### a) Preparation (Before the site goes 'live') 
+      Content
+      1)	Be clear on what project wanted to focus on.
+      2)	Fixed font (https://fonts.google.com).
+      3)	Fixed color code (https://www.sessions.edu/color-calculator/).
+      4)	Choose the photos (https://unsplash.com/) which are related to the project theme and color matching.
+      5)	Inhouse Excel vessel sailing schedule
+
+### b) Production (Putting the site into production) 
+      1)	Excel -> delete unnecessary content (e.g. logo, photo or etc..)  in excel. 
+      2)	Restdb.io -> upload excel to restdb.io
+      3)	Restdb.io -> get API Key 
+      4)	Restdb.io -> get API lin: 
+      5)	Github -> create Github :epository and 
+      6)	Visual Studio Code -> clone Github repository in Visual Studio Code
+      7)	Visual Studio Code -> Did Git commit & push to ensure it is upstream to Github before start coding.
+      8)	Bootstrap -> Get Started HTML template 
+      9)	Axios -> insert axios CDN after jquery script 
+      10) Script.js -> use Axios & jquery coding to get resdb.io API 
+      11) HTML -> file up content 
+      12) Style.css -> style the page 
+      13) W3 Markup Validation Service -> validating markup
+      14) W3C Link Checker -> checking links 
+      15) Dirty Markup -> cleaning up HTML and CSS Codes
+      16) Word It Out -> creating word cloud
+      17) Responsive Web Design Checker -> checking how it looks like on other devices
+      18) Testing -> all navigation 
+
+### c) Publication (Putting the site goes ‘live’) 
+      1)	At the Git Repository, navigate to the 'Setting'
+      2)	scrolled down to the Git Pages section.
+      3)	Select 'master branch'
+      4)	View and test the site at  https://shyan1943.github.io/pro2/
 
