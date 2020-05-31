@@ -13,7 +13,7 @@
     position: relative;
 }
 
-.container-fluid .btn {
+.container-fluid #search-btn {
     position: absolute;
     top: 20%;
     left: 50%;
@@ -30,7 +30,7 @@
     display: block;
 }
 
-.container-fluid .btn:hover {
+.container-fluid #search-btn:hover {
     background-color: white;
     color: red;
 }
