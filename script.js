@@ -9,7 +9,7 @@ $(function(){
 
 
 $(function(){
-    $('#search-btn').click(function(){
+    $("#search-btn").click(function(){
         axios.get(APIURL, {
             params: {
                 apikey:APIKEY
@@ -17,7 +17,7 @@ $(function(){
         }).then(function(response){
             let data = response.data;
             for (let allData of data){
-                $('#toolbar').html(`
+                $("#toolbar").html(`
                 <div class="panel-title-hp text-center"   id="ourschedule">
                     <div class="panel-title-shadow-hp">OUR SCHEDULE</div>
                     <div class="panel-title-hp-line">
@@ -40,7 +40,7 @@ $(function(){
                 </tr>
                 `)
 
-                $('#table-data').append(`
+                $("#table-data").append(`
                 <tr>
                     <td>${allData["POL ETA"]}</td>
                     <td>${allData.POL}</td>                    

@@ -9,20 +9,23 @@
 }
 
 .container-fluid {
-    padding: 0px 0px;
+    padding: 0 0;
     position: relative;
 }
 
-.container-fluid #search-btn {
+.container-fluid .btn {
     position: absolute;
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: red;
     color: white;
     font-size: 3vw;
-    padding: 0px 24px;
+    padding: 0 24px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
@@ -30,7 +33,7 @@
     display: block;
 }
 
-.container-fluid #search-btn:hover {
+.container-fluid .btn:hover {
     background-color: white;
     color: red;
 }
@@ -51,6 +54,9 @@
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transition: all 1s cubic-bezier(0.73, 0.26, 0.12, 0.83);
     display: block;
@@ -100,12 +106,11 @@
 .profile {
     padding-top: 20px;
     padding-bottom: 50px;
-    /* font-size: 1vw; */
 }
 
 .jumbotron {
-    margin-bottom: 0rem;
-    padding: 10px 0px;
+    margin-bottom: 0;
+    padding: 10px 0;
     background-color:#676767;
 }
 
