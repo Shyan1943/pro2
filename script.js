@@ -36,7 +36,7 @@ $(function(){
                     <th class="th-sm" scope="row">ETA POD</th>
                     <th class="th-sm" scope="col">Vessel</th>
                     <th class="th-sm" scope="col">Vovage</th>
-                    <th class="th-sm" scope="col">Est. Transit Time</th>            
+                    <th class="th-sm" scope="col" colspan="2">Est. Transit Time</th>            
                 </tr>
                 `)
 
@@ -61,7 +61,7 @@ $(function(){
                     <th class="th-sm" scope="row">ETA POD</th>
                     <th class="th-sm" scope="col">Vessel</th>
                     <th class="th-sm" scope="col">Vovage</th>
-                    <th class="th-sm" scope="col">Est. Transit Time</th>      
+                    <th class="th-sm" scope="col" colspan="2">Est. Transit Time</th>      
                 </tr>
                 `);
 
